@@ -1,0 +1,49 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+div.box {
+    width: 400px;
+    background-color: rgb(153, 255, 153);
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px double black;
+}
+
+h2 {
+    margin: 5px;
+    font-weight: normal;
+    font-family: "Avantgarde", "Tex Gyre Adventor", "URW Gothic L", sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+#result {
+    margin-left: 15px;
+}
+
+
+label.text1 {
+    margin-left: 5px;
+    font-family: "Avantgarde", "Tex Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+label.text2 {
+    margin-left: 110px;
+    font-family: "Avantgarde", "Tex Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+div.boxmoney {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+select.get {
+    margin-left: 150px;
+}

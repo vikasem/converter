@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" />
+        <title>Конвертор валют</title>
+    </head>
+    <body>
+        
+        <div class = "box">
+            <div class = "header">
+                <h2>Конвертор валют</h2>
+            </div>
+            <div class = "boxmoney">
+            <select id = "havingmoney" class = "having">
+                <option value="RUB">RUB</option>
+            </select>
+
+            <select id = "getmoney" class = "get">
+                <option value="RUB">RUB</option>
+            </select>
+            </div>
+
+            <label class = "text1">У меня есть:</label>
+
+            <label class = "text2">Я получу:</label>
+            <div class = "input"></div>
+                <input id="input" type="number" autofocus />
+
+                <input id="result" type="number" />
+            </div>
+
+
+        </div>
+
+        <script src = "rate.js"></script>
+    </body>
+    
+
+</html>
